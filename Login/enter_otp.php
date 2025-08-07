@@ -1,9 +1,3 @@
-<!-- Add a form to enter OTP -->
-<form class="pt-3" action="verify_otp.php" method="post">
-  <div class="form-group">
-    <input type="text" class="form-control form-control-lg" id="otp" placeholder="Enter OTP" name="otp">
-  </div>
-  <div class="mt-3">
-    <input type="submit" value="Verify OTP" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" />
-  </div>
-</form>
+version https://git-lfs.github.com/spec/v1
+oid sha256:5865575d9a15d1bb7c395f6daaaa1ef00298c3762ad48655472f71733a57ebdb
+size 3636

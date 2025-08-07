@@ -1,19 +1,3 @@
-<?php
-    $cn = mysqli_connect("localhost","root","","artibidz") or die("check connection");
-
-if (isset($_POST['state'])) {
-    $state = $_POST['state'];
-    
-    // Replace this with your own logic to fetch cities from a database or another source
-    $sql = "select * from city where state_id = $state";
-    $result = mysqli_query($cn,$sql);
-    
-    $options = "<option value=''>Select City</option>";
-    while($row=mysqli_fetch_array($result))
-    {
-        echo "<option value='${row['city_id']}'>${row['city_name']}</option>";
-    }
-
-    echo $options;
-}
-?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:966aeb054a44f77cae49f4714dfe9bab27aba7a66d0c08e31b60718ffbd9d66e
+size 584

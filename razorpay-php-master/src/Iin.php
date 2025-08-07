@@ -1,18 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-class Iin extends Entity
-{   
-    public function fetch($id)
-    {
-        return parent::fetch($id);
-    }
-
-    public function all($options = array())
-    {
-        $relativeUrl = $this->getEntityUrl(). 'list';
-
-        return $this->request('GET', $relativeUrl, $options);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46466f72e314366ef8dad64f56dac818d4e511c28beb2e5363ef60099fcc582a
+size 316

@@ -1,36 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-class Item extends Entity
-{
-
-    public function create($attributes = array())
-    {
-        return parent::create($attributes);
-    }
-
-    public function fetch($id)
-    {
-        return parent::fetch($id);
-    }
-
-    public function edit($attributes = array())
-    {
-        $url = $this->getEntityUrl() . $this->id;
-
-        return $this->request('PATCH', $url, $attributes);
-    }
-
-    public function all($options = array())
-    {
-        return parent::all($options);
-    }
-
-    public function delete()
-    {
-        $url = $this->getEntityUrl() . $this->id;
-
-        return $this->request('DELETE', $url);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d22d3d8f12d85cc77f22cbbb98c557fb6452502841ee47dc7cac3d4cce01e884
+size 654

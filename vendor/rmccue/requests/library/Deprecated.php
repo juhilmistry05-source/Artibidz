@@ -1,19 +1,3 @@
-<?php
-/**
- * Backwards compatibility layer for Requests.
- *
- * Allows for Composer to autoload the old PSR-0 classes via the custom autoloader.
- * This prevents issues with _extending final classes_ (which was the previous solution).
- *
- * Please see the Changelog for the 2.0.0 release for upgrade notes.
- *
- * @package Requests
- *
- * @deprecated 2.0.0 Use the PSR-4 class names instead.
- */
-
-if (class_exists('WpOrg\Requests\Autoload') === false) {
-	require_once dirname(__DIR__) . '/src/Autoload.php';
-}
-
-WpOrg\Requests\Autoload::register();
+version https://git-lfs.github.com/spec/v1
+oid sha256:87f713bd41c932f684d7f0afa83ba70ff1bc9ff24ebe7112e3fb7183d2d465c7
+size 545

@@ -1,28 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-class Addon extends Entity
-{
-    // To create an Addon,
-    // use the createAddon method of the Subscription class
-
-    public function fetch($id)
-    {
-        return parent::fetch($id);
-    }
-
-    public function delete()
-    {
-        $entityUrl = $this->getEntityUrl();
-
-        return $this->request('DELETE', $entityUrl . $this->id);
-    }
-
-    public function fetchAll($attributes = array())
-    {
-        $entityUrl = $this->getEntityUrl(); 
-
-        return $this->request('GET', $entityUrl , $attributes);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a14f6dad9c10a830c077ff5d55cfcd42c5efdc83ced29148edd359f198f9fb02
+size 556

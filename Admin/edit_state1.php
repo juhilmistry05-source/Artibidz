@@ -1,17 +1,3 @@
-<?php session_start();
-//include("../includes/connect.php");
-?>
-<html>
-    <body>
-        <?php
-         $cn=mysqli_connect("localhost","root","","artibidz") or die("Check connection");
-        $state_id=$_POST['state_id'];
-        $state_name=$_POST['state_name'];
-        $sql="update state set state_name='$state_name' where state_id='$state_id'";
-        $result=mysqli_query($cn,$sql);
-       $_SESSION['msg']="State updated";
-        header("Location:state.php");
-
-        ?>
-    </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c911236013df3602989188bf9823fe35428c911427465897b0fb23fc324cf4b
+size 517

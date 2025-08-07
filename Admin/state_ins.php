@@ -1,16 +1,3 @@
-<?php session_start();
-//include("../includes/connect.php");
-?>
-<html>
-    <body>
-       <?php
-        $cn=mysqli_connect("localhost","root","","artibidz") or die("Check connection");
-       $state_name=$_POST['state_name'];
-       $query="insert into state(state_name)values ('$state_name')";
-       $result=mysqli_query($cn,$query);
-       $_SESSION['msg']="State inserted";
-       header("Location:state.php");
-       ?>
-    </body>
-   
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6a5566b57be129681b943554288f34c6f6128c8a47f3fcfe9bcd0e085eee19b
+size 464

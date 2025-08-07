@@ -1,17 +1,3 @@
-<?php
-
-namespace Razorpay\Api\Errors;
-
-class ErrorCode
-{
-    const BAD_REQUEST_ERROR                 = 'BAD_REQUEST_ERROR';
-    const SERVER_ERROR                      = 'SERVER_ERROR';
-    const GATEWAY_ERROR                     = 'GATEWAY_ERROR';
-
-    public static function exists($code)
-    {
-        $code = strtoupper($code);
-
-        return defined(get_class() . '::' . $code);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a1d8f84ecae80057d8b8070ddbe9b873509dbaacbb862e00c6edf109f36b357
+size 392

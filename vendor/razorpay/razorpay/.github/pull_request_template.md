@@ -1,8 +1,3 @@
-## Note :- Please follow the below points while attaching test cases document link below:
-   ### - If label `Tested` is added then test cases document URL is mandatory.
-   ### - Link added should be a valid URL and accessible throughout the org.
-   ### - If the branch name contains hotfix / revert by default the BVT workflow check will pass.
-
-| Test Case Document URL                        |
-|-----------------------------------------------|
-| Please paste test case document link here.... |
+version https://git-lfs.github.com/spec/v1
+oid sha256:17e2c3b0ace3f818e61bac298617ce6c569545b93744bdcd0273b701cd5a0435
+size 495

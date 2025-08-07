@@ -1,16 +1,3 @@
-<?php session_start();
-//include("../includes/connect.php");
- ?>
- <html>
-    <body>
-       <?php
-        $cn=mysqli_connect("localhost","root","","artibidz") or die("Check connection");
-       $cat_name=$_POST['cat_name'];
-       $query="insert into category(cat_name)values ('$cat_name')";
-       $result=mysqli_query($cn,$query);
-       $_SESSION['msg']="category inserted";
-       header("Location:category.php");
-       ?>
-    </body>
-   
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b762fdccee1150a9e6b18f4a08c229a89e1cfe2f4522212a76535629a51f79aa
+size 467

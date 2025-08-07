@@ -1,17 +1,3 @@
-<?php session_start();
-//include("../includes/connect.php");
-?>
-<html>
-    <body>
-        <?php
-         $cn=mysqli_connect("localhost","root","","artibidz") or die("Check connection");
-            $sub_cat_id=$_GET['sub_cat_id'];
-            $sql = "delete from sub_category where sub_cat_id='$sub_cat_id'";
-
-           $result = mysqli_query($cn,$sql);
-           $_SESSION['msg']="Sub-category deleted";
-          header("Location:sub_category.php");
-        ?>
-       
-    </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0495d5e5c8532aa363e84a5e8abb5c67e9dbf3fc40a565ede877701df3792735
+size 510

@@ -1,17 +1,3 @@
-<?php session_start();
-//include("../includes/connect.php");
-?>
-<html>
-    <body>
-        <?php
-         $cn=mysqli_connect("localhost","root","","artibidz") or die("Check connection");
-        $cat_id=$_POST['cat_id'];
-        $cat_name=$_POST['cat_name'];
-        $sql="update category set cat_name='$cat_name' where cat_id='$cat_id'";
-        $result=mysqli_query($cn,$sql);
-       $_SESSION['msg']="category updated";
-       header("Location:category.php");
-
-        ?>
-    </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:09032aee6f6256179134b50db9e1191ed0870384bcc4a83578c329fec4dee17c
+size 509

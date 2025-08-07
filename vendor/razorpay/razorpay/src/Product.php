@@ -1,34 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-class Product extends Entity
-{
-    public function requestProductConfiguration($attributes = array())
-    {
-        $url = 'accounts/'.$this->account_id .'/'.$this->getEntityUrl();     
-        
-        return $this->request('POST', $url, $attributes, 'v2');
-    }
-
-    public function fetch($id)
-    {
-        $entityUrl = 'accounts/'.$this->account_id .'/'.$this->getEntityUrl().'/'.$id;
-
-        return $this->request('GET', $entityUrl, null, 'v2');
-    }
-
-    public function edit($id, $attributes = array())
-    {
-        $entityUrl = 'accounts/'.$this->account_id .'/'.$this->getEntityUrl().'/'.$id;
-
-        return $this->request('PATCH', $entityUrl, $attributes, 'v2');
-    }
-    
-    public function fetchTnc($product_name)
-    {
-        $entityUrl = $this->getEntityUrl().'/'.$product_name.'/tnc';
-
-        return $this->request('GET', $entityUrl,null , 'v2');
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a8e1d66467784299e5a5126d084a47430ed7db21ebac92564a5561071170466
+size 911

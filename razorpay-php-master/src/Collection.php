@@ -1,20 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-use Countable;
-
-class Collection extends Entity implements Countable
-{
-    public function count():int
-    {
-        $count = 0;
-
-        if (isset($this->attributes['count']))
-        {
-            return $this->attributes['count'];
-        }
-
-        return $count;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd9cfd90b24581fb499b752ec34da6783ebe6ab4adf04ea26242f12f66290ac0
+size 308

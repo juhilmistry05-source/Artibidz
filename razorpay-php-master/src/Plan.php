@@ -1,21 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-class Plan extends Entity
-{
-    public function create($attributes = array())
-    {
-        return parent::create($attributes);
-    }
-
-    public function fetch($id)
-    {
-        return parent::fetch($id);
-    }
-
-    public function all($options = array())
-    {
-        return parent::all($options);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d124cec39813e1ec22f9cb31a200bd91cd4e69e3de0fa1d71b85f96a1437144c
+size 341

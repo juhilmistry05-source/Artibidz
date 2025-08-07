@@ -1,31 +1,3 @@
-<?php
-
-namespace Razorpay\Api;
-
-class PaymentPage extends Entity
-{
-
-    public function fetch($id)
-    {
-        return parent::fetch($id);
-    }
-
-    public function all($options = array())
-    {
-        return parent::all($options);
-    }
-
-    public function activate($id)
-    {
-        $relativeUrl = $this->getEntityUrl() . $id . '/activate';
-
-        return $this->request('PATCH', $relativeUrl);
-    }
-
-    public function deactivate($id)
-    {
-        $relativeUrl = $this->getEntityUrl() . $id . '/deactivate';
-
-        return $this->request('PATCH', $relativeUrl);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a9f6de3e60346216302fef0fab5b709b01daad1c7baff87b9e8e281e8339775
+size 582

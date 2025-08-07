@@ -1,30 +1,3 @@
-<?php
-
-namespace Razorpay\Tests;
-
-use Razorpay\Api\Request;
-
-class CardTest extends TestCase
-{
-    /**
-     * Specify unique card id
-     */
-    
-    private $cardId = "card_LcQgzpfvWP0UKF";
-
-    public function setUp(): void
-    {
-        parent::setUp();
-    }
-    
-    /**
-     * Fetch Card details
-     */
-    public function testFetchCard()
-    {
-        $data = $this->api->card->fetch($this->cardId);
-        
-        $this->assertTrue(in_array($this->cardId, $data->toArray()));
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de2bd15bdea796d3fcc2c72d76fb01b21c7bb8d01d6b3110cf82a306ad120593
+size 495

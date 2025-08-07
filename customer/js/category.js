@@ -1,10 +1,3 @@
-function getSubcategories(categoryId) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("subcategory-dropdown-" + categoryId).innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", "get_subcategories.php?category_id=" + categoryId, true);
-    xhttp.send();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8f25485b65941a5847597428e26c918596b8207d04fec58efa5852588c633db
+size 412

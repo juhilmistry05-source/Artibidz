@@ -1,17 +1,3 @@
-<?php session_start();
-//include("../includes/connect.php");
-?>
-<html>
-    <body>
-        <?php
-         $cn=mysqli_connect("localhost","root","","artibidz") or die("Check connection");
-            $city_id=$_GET['city_id'];
-            $sql = "delete from city where city_id='$city_id'";
-
-           $result = mysqli_query($cn,$sql);
-           $_SESSION['msg']="city deleted";
-          header("Location:city.php");
-        ?>
-       
-    </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:74bc3a3d123fc1c1b0accd81e7cdefcfd136f63043222b20c308f7de50178be4
+size 474

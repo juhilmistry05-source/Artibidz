@@ -1,14 +1,3 @@
-function performSearch() {
-    // Get the value from the search input
-    var searchValue = document.getElementById("search").value;
-
-    // Redirect to the search page or execute an AJAX request to fetch search results
-    window.location.href = "index.php?search=" + encodeURIComponent(searchValue);
-}
-
-// Trigger search when Enter key is pressed in the search input
-document.getElementById("search").addEventListener("keyup", function(event) {
-    if (event.key === "Enter") {
-        performSearch();
-    }
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b9692a6a5de83b9827678244ead8b718465132b0619f45c17fece5951683f7e
+size 527

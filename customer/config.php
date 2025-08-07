@@ -1,7 +1,3 @@
-<?php
-define('BASE_URL','http://localhost/artibidz2/');
-define('API_KEY','rzp_test_L9D6qRZl0CVSyc');
-define('API_SECRET','Vmf7kymzPMAjFUuCHz4cYaQL');
-define('COMPANY_NAME','ARTIBIDZ');
-define('COMPANY_LOGO_URL','http://localhost/artibidz2/Register/artibidz-logo.png');
-?>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d61e5c2dc463d4397c9fedc6b8095ca9f5715efa4cfd5b2fd5a106865d82904
+size 279
